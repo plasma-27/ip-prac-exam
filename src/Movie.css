@@ -1,0 +1,38 @@
+/* src/fourth/movie.css */
+.movie-database-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.movie-database-container h1 {
+    text-align: center;
+    color: #6498f8;
+}
+
+.movie-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.movie-item {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+}
+
+.movie-item:hover {
+    background-color: #78ecf5;
+}
+
+.movie-item :focus-visible{
+    background-color: #6498f8;
+}
+
+
+
